@@ -1,0 +1,15 @@
+Zależności funkcyjne dla tabeli zamówienia:
+
+1) Id_produktu -> nazwa_produktu, cena_produktu, VAT
+2) Id_klienta, data_zamowienia -> nazwa_klienta
+3) Id_produktu, data_zamowienia -> ilość, suma_brutto, suma_netto
+4) Id_produktu, data_zamowienia, ilość -> cena_produktu, suma_brutto, suma_netto
+5) nazwa_produktu -> Id_produktu, cena_produktu, VAT
+6) nazwa_klienta -> Id_klienta
+
+Klucze kandydujące:
+1. Id_produktu
+2. Id_klienta, data_zamowienia
+3. nazwa_produktu
+4. nazwa_klienta
+
