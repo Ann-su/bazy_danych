@@ -1,5 +1,5 @@
 USE AdventureWorks2022;
-GO -- Dodaj to polecenie
+GO
 
 CREATE TRIGGER taxRateMonitoring
 ON Sales.SalesTaxRate
